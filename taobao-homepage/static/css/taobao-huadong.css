@@ -1,0 +1,151 @@
+/*滑动和点击滚动的css*/
+        .slider {
+            width: 520px;
+            height: 280px;
+            position: relative;
+            overflow:hidden;
+        }
+        .slider .inners {
+            width: 100%;
+            height: 100%;
+            background-color: pink;
+            position: relative;
+            /*overflow: hidden*/
+        }
+        .slider .inners ul {
+            width: 1000%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .slider .inners ul li {
+            float: left;
+        }
+        .slider .inners ul li img {
+            display: block;
+            width: 520px;
+            height: 280px;
+        }
+        .slider ol {
+            position: absolute;
+            left: 50%;
+            margin-left: -80px;
+            bottom: 10px;
+
+        }
+        .slider ol li{
+            float: left;
+            width: 9px;
+            height: 9px;
+            border-radius:6px;
+            background-color: #fff;
+            margin-right: 10px;
+            text-align: center;
+            line-height: 18px;
+            cursor: pointer;
+            list-style:none;
+        }
+        .slider ol li.current {
+            background-color: #ff5000;
+        }
+        .allhd{
+            width: 520px;
+            height: 200px;
+            position: relative;
+            margin-top:12px;
+        }
+        .allhd .ad1 .ad-top1 img{
+            width: 136px;
+            height: 19px;
+        }
+        .allhd .ad1 .ad-top1 em{
+            font-size: 12px;
+            color: #666;
+            position: relative;
+            font-style:normal;
+            margin-left:10px;
+        }
+        .allhd .ad1 .ad-top1 strong{
+            margin-left:256px;
+            font-family: sans-serif;
+            font-size: 12px;
+            font-weight: 400
+        }
+        .allhd .ad1 .ad-top1 strong i{
+            color:#ff1648;
+            font-style:normal;
+        }
+        .allhd .ad1 .ad-top2 ul li{
+            float:left;
+            margin-left:-4px;
+            padding:0;
+            display: inline-block;
+            width: 90px;
+            height: 3px;
+            background: #ff1648;
+        }
+        .allhd .ad1 .ad-top2 ul li:hover{
+            background-color:black;
+            cursor:pointer;
+        }
+        .allhd .ad1 .ad-top2 ul li.top2-one{
+           margin:0;
+           background-color:black;
+       }
+        .allhd .ad2{
+            width:520px;
+            height:200px;
+            overflow:hidden;
+            position:relative;
+            margin-top: 8px;
+
+        }
+        .allhd .ad2 ul li:hover{
+            cursor:pointer;
+        }
+        .allhd .ad2 ul li img{
+            width:520px;
+            height: 200px;
+        }
+        .allhd .ad2 ul{
+            position:absolute;
+            top:0;
+            width:3220px;
+        }
+        .allhd .ad2 ul li{
+            float:left;
+        }
+        .allhd .ad2 ul li.current{
+            display:block;
+        }
+        .allhd .ad3 {
+            display: none;
+        }
+        .allhd .ad3 span{
+            width:20px;
+            height:30px;
+            position:absolute;
+            left:5px;
+            top:60%;
+            background:#b2b2b2;
+            cursor:pointer;
+            line-height:30px;
+            text-align:center;
+            font-weight:bold;
+            font-size:15px;
+            color:#fff;
+            opacity:0.5;
+            border-top-right-radius:12px;
+            border-bottom-right-radius:12px;
+        }
+        .allhd .ad3 span:hover{
+            background-color:#7f7f7f;
+        }
+        .allhd .ad3 .righthds{
+            right:5px;
+            left:auto;
+            border-top-right-radius:0;
+            border-bottom-right-radius:0;
+            border-top-left-radius:12px;
+            border-bottom-left-radius:12px;
+        }
